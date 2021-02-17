@@ -1,0 +1,138 @@
+@import "../../css/variables";
+@import "../../css/breakpoints";
+.card-container {
+  width: 95%;
+  box-shadow: 0 0 5px 0px #000000;
+  border-radius: 4px;
+  .image-container {
+    display: grid;
+    min-height: 15rem;
+    .image,
+    .overlay-content {
+      grid-area: 1 / 1;
+    }
+    .image {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      filter: brightness(0.3);
+    }
+    .overlay-content {
+      z-index: 1;
+      background: transparent;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      color: #ffffff;
+      .tags-container {
+        display: flex;
+        margin: 0 0 0.5rem 1.25rem;
+        flex-wrap: wrap;
+        .capsule {
+          margin-right: 0.5rem;
+          background-color: #ffffff;
+          color: #000;
+          padding: 0.75rem;
+          border-radius: 100px;
+          margin-bottom: 1rem;
+        }
+      }
+      > p {
+        margin: 0 0.25rem 1.5rem 0;
+        padding: 0.75rem;
+      }
+    }
+  }
+  .card-body {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    .left-container {
+      .college-name {
+        flex-wrap: wrap;
+        h2 {
+          font-size: 1.2rem;
+        }
+      }
+      .star-container {
+        place-self: center;
+        margin: 6px 0px 0 0px;
+        justify-content: space-between;
+      }
+      .places {
+        margin-top: 1rem;
+        justify-content: space-between;
+        width: 102%;
+        flex-wrap: wrap;
+        :first-child {
+          font-weight: 600;
+        }
+        :not(:first-child) {
+          padding-left: 4px;
+          border-left: 2px solid black;
+        }
+      }
+      .famous-places {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        p:first-of-type {
+          font-weight: 600;
+          color: $third-text-color;
+        }
+      }
+      .offer-bar {
+        margin-left: -1rem;
+        padding: 0.75rem;
+        padding-right: 2rem;
+        background-color: $secondary-bg-color;
+        width: fit-content;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        font-weight: 600;
+        span {
+          color: $third-text-color;
+        }
+      }
+    }
+
+    .right-container {
+      text-align: end;
+      display: flex;
+      flex-direction: column;
+      .original-fees-container {
+        justify-content: flex-end;
+        align-items: center;
+      }
+      .discounted-fees-container {
+        font-size: 1.25rem;
+        h1 {
+          color: #dd1c26;
+        }
+        small {
+          font-size: 0.8rem;
+        }
+      }
+      .amenties-container {
+        display: flex;
+        padding: 0.75rem 0 0.75rem;
+        font-weight: 600;
+        align-items: center;
+        height: 100%;
+        flex-wrap: wrap;
+        p {
+          color: $third-text-color;
+          .dot {
+            border-radius: 50%;
+            width: 5px;
+            height: 5px;
+            background-color: $third-text-color;
+            margin: 3px 0.4rem;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.ribbon-container {
+  position: absolute;
+  top: -25px;
+  right: 0px;
+  overflow: visible;
+  font-size: 18px;
+  line-height: 18px;
+  .ribbon {
+    display: block;
+    padding: 1rem 3rem;
+    position: relative;
+    background: #68a7ff;
+    overflow: visible;
+    height: 18px;
+    margin-left: 29px;
+    color: #fff;
+    text-decoration: none;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -28px;
+      border-top: 25px solid #68a7ff;
+      border-bottom: 25px solid #68a7ff;
+      border-right: 29px solid transparent;
+      border-left: 29px solid transparent;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.tag {
+  display: inline-block;
+  background-color: #dd1c26;
+  border-left: 1px solid #dd1c26;
+  /* This makes room for the triangle */
+  margin-left: 19px;
+  position: relative;
+  color: white;
+  padding: 2px 8px;
+  &::before {
+    content: "";
+    position: absolute;
+    left: -18px;
+    top: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 9px solid #dd1c26;
+    border-left: 8px solid transparent;
+  }
+  &::after {
+    content: "";
+    background-color: white;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: 0px;
+    top: 8px;
+  }
+}
