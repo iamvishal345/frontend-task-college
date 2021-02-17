@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/frontend-task-college/static/css/main.8c326389.chunk.css",
+    "main.js": "/frontend-task-college/static/js/main.86057ed1.chunk.js",
+    "main.js.map": "/frontend-task-college/static/js/main.86057ed1.chunk.js.map",
+    "runtime-main.js": "/frontend-task-college/static/js/runtime-main.82377d12.js",
+    "runtime-main.js.map": "/frontend-task-college/static/js/runtime-main.82377d12.js.map",
+    "static/js/2.97927770.chunk.js": "/frontend-task-college/static/js/2.97927770.chunk.js",
+    "static/js/2.97927770.chunk.js.map": "/frontend-task-college/static/js/2.97927770.chunk.js.map",
+    "index.html": "/frontend-task-college/index.html",
+    "static/css/main.8c326389.chunk.css.map": "/frontend-task-college/static/css/main.8c326389.chunk.css.map",
+    "static/js/2.97927770.chunk.js.LICENSE.txt": "/frontend-task-college/static/js/2.97927770.chunk.js.LICENSE.txt",
+    "static/media/college.jpeg": "/frontend-task-college/static/media/college.cfdc9984.jpeg",
+    "static/media/college_01.jpeg": "/frontend-task-college/static/media/college_01.bbb13c0d.jpeg",
+    "static/media/frontend_task.png": "/frontend-task-college/static/media/frontend_task.b1ee54b4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82377d12.js",
+    "static/js/2.97927770.chunk.js",
+    "static/css/main.8c326389.chunk.css",
+    "static/js/main.86057ed1.chunk.js"
+  ]
+}
